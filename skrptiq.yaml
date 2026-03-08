@@ -1,0 +1,40 @@
+# --- Identity ---
+name: "release-process-pipeline"
+display_name: "Release Process Pipeline"
+description: "Drafts user-facing release notes from recent commits and pull requests"
+version: "1.0.0"
+engine: ">=1.0.0"
+
+# --- Attribution ---
+author:
+  name: "skrptiq"
+  url: "https://hub.skrptiq.ai"
+
+licence: "MIT"
+repository: "https://github.com/skrpts/release-process-pipeline"
+
+# --- Discovery (Hub) ---
+category: "developer"
+tags:
+  - "release"
+  - "changelog"
+  - "devops"
+
+# --- Security & Access ---
+requires:
+  services:
+    - "anthropic-claude"
+  permissions: []
+  data_handling:
+    - "source-code"
+
+# --- Contents ---
+contents:
+  skills: 2
+  prompts: 1
+  workflows: 1
+  services: 0
+  sources: 0
+  documents: 1
+  assets: 0
+  total: 5
