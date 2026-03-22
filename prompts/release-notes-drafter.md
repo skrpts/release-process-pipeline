@@ -18,3 +18,7 @@ Converts raw commit messages and pull request descriptions into polished, user-f
 ## Prompt
 
 Given these commit messages and PR descriptions, draft user-facing release notes grouped by: features, fixes, and improvements.
+
+### Inputs
+
+{{input.commit_log}}
