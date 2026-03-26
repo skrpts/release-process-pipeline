@@ -17,8 +17,9 @@ Converts raw commit messages and pull request descriptions into polished, user-f
 
 ## Prompt
 
-Given these commit messages and PR descriptions, draft user-facing release notes grouped by: features, fixes, and improvements.
+Given the analysed changes from the code review stage and the raw commit data, draft user-facing release notes grouped by: features, fixes, and improvements.
 
 ### Inputs
 
-{{input.commit_log}}
+- **Code review analysis:** {{steps.code-review.output}}
+- **Raw commit log:** {{input.commit_log}}
