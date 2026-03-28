@@ -11,6 +11,8 @@ connections:
     type: uses
   - target: release-notes-drafter
     type: uses
+  - target: text-summarisation
+    type: uses
 ---
 
 ## Overview
