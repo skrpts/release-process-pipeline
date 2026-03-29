@@ -3,7 +3,7 @@ type: workflow
 id: release-process-pipeline
 title: Release Process Pipeline
 description: "Drafts user-facing release notes from recent commits and pull requests"
-tags: [Production]
+tags: [Production, writing:product, communication:status]
 connections:
   - target: code-review
     type: uses

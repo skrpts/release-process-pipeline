@@ -3,7 +3,7 @@ type: document
 id: release-checklist
 title: Release Checklist
 description: "Standard checklist for pre-release and release-day procedures"
-tags: [Production]
+tags: [Production, writing:product, communication:status]
 connections: []
 ---
 
