@@ -3,7 +3,7 @@ type: skill
 id: code-review
 title: Code Review
 description: "Reviews source code for bugs, vulnerabilities, performance issues, and style"
-tags: [Tested, quality:review, quality:security, technical:code, technical:security]
+tags: [Tested, Code, Review, Security]
 connections:
   - target: llm-service
     type: runs_on

@@ -3,7 +3,7 @@ type: prompt
 id: release-notes-drafter
 title: Release Notes Drafter
 description: "Task prompt for drafting user-facing release notes from commits and PRs"
-tags: [Production, writing:product, communication:status]
+tags: [Production, Strategy, Automation]
 connections:
   - target: code-review
     type: derived_from
