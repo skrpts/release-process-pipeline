@@ -15,6 +15,8 @@ connections:
     type: uses
   - target: llm-service
     type: runs_on
+  - target: release-checklist
+    type: references
 ---
 
 ## Overview
