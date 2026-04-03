@@ -7,8 +7,6 @@ tags: [Production, Strategy, Automation]
 connections:
   - target: code-review
     type: uses
-  - target: markdown-formatting
-    type: uses
   - target: release-notes-drafter
     type: uses
   - target: text-summarisation
@@ -17,6 +15,12 @@ connections:
     type: runs_on
   - target: release-checklist
     type: references
+  - target: language-polish
+    type: uses
+  - target: brief-compliance-check
+    type: uses
+  - target: format-conversion
+    type: uses
 ---
 
 ## Overview
