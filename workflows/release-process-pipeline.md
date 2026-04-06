@@ -7,8 +7,6 @@ tags: [Production, Strategy, Automation]
 connections:
   - target: code-review
     type: uses
-  - target: release-notes-drafter
-    type: uses
   - target: text-summarisation
     type: uses
   - target: llm-service
