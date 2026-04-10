@@ -21,5 +21,5 @@ Given the analysed changes from the code review stage and the raw commit data, d
 
 ### Inputs
 
-- **Code review analysis:** {{steps.Code Review.output}}
+- **Code review analysis:** {{steps.previous.output}}
 - **Raw commit log:** {{input.commit_log}}
