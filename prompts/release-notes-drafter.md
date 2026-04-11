@@ -4,6 +4,13 @@ id: release-notes-drafter
 title: Release Notes Drafter
 description: "Task prompt for drafting user-facing release notes from commits and PRs"
 tags: [Production, Strategy, Automation]
+inputs:
+  commit_log:
+    label: "Commit Log"
+    description: "The git commit log or changelog entries"
+    example: "git log --oneline output or list of changes"
+    required: true
+    type: text
 connections:
   - target: code-review
     type: derived_from
