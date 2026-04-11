@@ -19,6 +19,16 @@ connections:
     type: uses
   - target: format-conversion
     type: uses
+execution:
+  - skill: "text-summarisation"
+  - skill: "format-conversion"
+    input_from: "text-summarisation"
+  - skill: "code-review"
+    input_from: "format-conversion"
+  - skill: "language-polish"
+    input_from: "format-conversion"
+  - skill: "brief-compliance-check"
+    input_from: "format-conversion"
 ---
 
 ## Overview
