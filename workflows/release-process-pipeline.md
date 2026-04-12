@@ -29,6 +29,21 @@ execution:
     input_from: "format-conversion"
   - skill: "brief-compliance-check"
     input_from: "format-conversion"
+execution:
+  - skill: "text-summarisation"
+    step_type: "synthesis"
+  - skill: "format-conversion"
+    step_type: "content"
+    input_from: "text-summarisation"
+  - skill: "code-review"
+    step_type: "review"
+    input_from: "format-conversion"
+  - skill: "language-polish"
+    step_type: "content"
+    input_from: "format-conversion"
+  - skill: "brief-compliance-check"
+    step_type: "review"
+    input_from: "format-conversion"
 ---
 
 ## Overview
