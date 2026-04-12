@@ -21,16 +21,6 @@ connections:
     type: uses
 execution:
   - skill: "text-summarisation"
-  - skill: "format-conversion"
-    input_from: "text-summarisation"
-  - skill: "code-review"
-    input_from: "format-conversion"
-  - skill: "language-polish"
-    input_from: "format-conversion"
-  - skill: "brief-compliance-check"
-    input_from: "format-conversion"
-execution:
-  - skill: "text-summarisation"
     step_type: "synthesis"
   - skill: "format-conversion"
     step_type: "content"
