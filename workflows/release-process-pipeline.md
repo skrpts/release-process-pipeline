@@ -24,16 +24,13 @@ execution:
     step_type: "synthesis"
   - skill: "format-conversion"
     step_type: "content"
-    input_from: "text-summarisation"
+  - parallel:
+    - skill: "language-polish"
+      step_type: "content"
+    - skill: "brief-compliance-check"
+      step_type: "review"
   - skill: "code-review"
     step_type: "review"
-    input_from: "format-conversion"
-  - skill: "language-polish"
-    step_type: "content"
-    input_from: "format-conversion"
-  - skill: "brief-compliance-check"
-    step_type: "review"
-    input_from: "format-conversion"
 ---
 
 ## Overview
