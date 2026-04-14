@@ -19,6 +19,13 @@ connections:
     type: uses
   - target: format-conversion
     type: uses
+output_step: "text-summarisation"
+composite_steps:
+  - "code-review"
+  - "text-summarisation"
+  - "language-polish"
+  - "brief-compliance-check"
+  - "format-conversion"
 execution:
   - skill: "text-summarisation"
     step_type: "synthesis"
