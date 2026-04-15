@@ -31,13 +31,13 @@ execution:
     step_type: "synthesis"
   - skill: "format-conversion"
     step_type: "content"
+  - skill: "language-polish"
+    step_type: "content"
   - parallel:
-    - skill: "language-polish"
-      step_type: "content"
+    - skill: "code-review"
+      step_type: "review"
     - skill: "brief-compliance-check"
       step_type: "review"
-  - skill: "code-review"
-    step_type: "review"
 ---
 
 ## Overview
