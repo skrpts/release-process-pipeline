@@ -3,7 +3,7 @@ id: "2d9a699b-f260-4439-9fc9-9092a48cf055"
 name: "release-process-pipeline"
 display_name: "Release Process Pipeline"
 description: "Drafts user-facing release notes from recent commits and pull requests"
-version: "1.1.16"
+version: "1.1.17"
 engine: ">=1.0.0"
 
 # --- Attribution ---
