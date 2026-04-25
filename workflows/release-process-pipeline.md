@@ -29,6 +29,7 @@ composite_steps:
 execution:
   - skill: "text-summarisation"
     step_type: "synthesis"
+    prompt: "release-notes-brief"
   - skill: "format-conversion"
     step_type: "content"
   - skill: "language-polish"
