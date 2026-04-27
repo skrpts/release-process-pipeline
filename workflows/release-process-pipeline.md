@@ -31,13 +31,16 @@ execution:
     step_type: "synthesis"
     prompt: "release-notes-brief"
   - skill: "format-conversion"
+    prompt: "release-notes-drafter"
     step_type: "content"
   - skill: "language-polish"
+    prompt: "polish-language"
     step_type: "content"
   - parallel:
     - skill: "code-review"
       step_type: "review"
     - skill: "brief-compliance-check"
+      prompt: "check-brief-compliance"
       step_type: "review"
 ---
 
