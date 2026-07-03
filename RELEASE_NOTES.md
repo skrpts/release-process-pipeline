@@ -1,5 +1,8 @@
 # Release Notes
 
+## v1.1.30
+GH#745 — declare per-step `output: {name, type}` on every execution step (release_brief/text, release_notes/text, polished_notes/text, code_review/text, compliance_verdict/decision). Lights up the #744 rich flow-map. Content-only; no bindings or logic changes.
+
 ## v1.1.29
 GH#645 Row 3b — migrate to K-037 dep-referenced schema. Strip 8 inline shared-content files and declare 8 hub-shared deps (UUID id + slug name + version + checksum from `gen-dep-checksums.mjs`). Closes pre-Step-3 inline-vendoring for this bundle.
 

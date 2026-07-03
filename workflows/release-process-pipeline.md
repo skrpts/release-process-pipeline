@@ -30,12 +30,15 @@ execution:
   - skill: "text-summarisation"
     step_type: "synthesis"
     prompt: "release-notes-brief"
+    output: { name: "release_brief", type: "text" }
   - skill: "format-conversion"
     prompt: "release-notes-drafter"
     step_type: "content"
+    output: { name: "release_notes", type: "text" }
   - skill: "language-polish"
     prompt: "polish-language"
     step_type: "content"
+    output: { name: "polished_notes", type: "text" }
     context:
       voice_profile: "Neutral professional tone"
       grammar_strictness: "Professional"
@@ -43,9 +46,11 @@ execution:
     - skill: "code-review"
       prompt: "review-code-changes"
       step_type: "review"
+      output: { name: "code_review", type: "text" }
     - skill: "brief-compliance-check"
       prompt: "check-brief-compliance"
       step_type: "review"
+      output: { name: "compliance_verdict", type: "decision" }
       context:
         audience_profile: "General professional audience"
         compliance_brief: "No specific compliance requirements"
