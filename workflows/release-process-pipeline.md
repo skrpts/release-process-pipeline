@@ -63,13 +63,13 @@ This workflow processes recent commits and pull request descriptions to produce 
 
 ## Pipeline Stages
 
-### Stage 1: Analyse Changes
+### Stage 1: Analyze Changes
 
 Invoke the **code-review** skill to understand the nature and impact of recent code changes from commit diffs and PR descriptions.
 
 ### Stage 2: Draft Release Notes
 
-Invoke the **release-notes-drafter** prompt to categorise changes into features, fixes, and improvements, and draft user-friendly descriptions.
+Invoke the **release-notes-drafter** prompt to categorize changes into features, fixes, and improvements, and draft user-friendly descriptions.
 
 ### Stage 3: Format Output
 
@@ -94,7 +94,7 @@ Formatted release notes containing:
 
 | Name | Description |
 |------|-------------|
-| Release notes | Formatted markdown release notes categorised into features, fixes, and improvements |
+| Release notes | Formatted markdown release notes categorized into features, fixes, and improvements |
 
 ## Setup
 

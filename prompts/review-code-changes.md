@@ -50,4 +50,4 @@ One of:
 
 - Use British English throughout
 - Cite specific code locations for each finding
-- Categorise findings by severity (critical, high, medium, low)
+- Categorize findings by severity (critical, high, medium, low)

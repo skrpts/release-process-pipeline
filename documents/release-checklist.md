@@ -14,7 +14,7 @@ connections: []
 - Run full test suite
 - Security scan all dependencies
 - Update version numbers
-- Review and finalise changelog
+- Review and finalize changelog
 - Tag release candidate
 
 ## Release Day

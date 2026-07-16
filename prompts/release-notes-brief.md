@@ -20,7 +20,7 @@ inputs:
     type: text
   highlights:
     label: "Highlights"
-    description: "Features or fixes to emphasise"
+    description: "Features or fixes to emphasize"
     example: "New dashboard, fixed login timeout"
     required: false
     type: text

@@ -25,4 +25,4 @@ Source code files, diffs, or snippets
 
 ## Outputs
 
-Categorised findings: security issues, bugs, performance concerns, style suggestions
+Categorized findings: security issues, bugs, performance concerns, style suggestions
