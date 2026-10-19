@@ -89,6 +89,8 @@ Formatted release notes containing:
 | Name | Required | Description | Example |
 |------|----------|-------------|---------|
 | `{{input.commit_log}}` | Yes | Commit log or PR descriptions covering the release | Output from `git log --oneline v1.2.0..HEAD` or a list of PR titles and descriptions |
+| `{{input.highlights}}` | No | Features or fixes to emphasize | `New dashboard, fixed login timeout` |
+| `{{input.version}}` | No | Version number | `v2.3.0` |
 
 ## Outputs
 
