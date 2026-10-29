@@ -42,6 +42,10 @@ execution:
     context:
       voice_profile: "Neutral professional tone"
       grammar_strictness: "Professional"
+    bindings:
+      source:
+        from_step: "Format Conversion"
+        field: output
   - parallel:
     - skill: "code-review"
       prompt: "review-code-changes"
@@ -55,6 +59,10 @@ execution:
         audience_profile: "General professional audience"
         compliance_brief: "No specific compliance requirements"
         compliance_depth: "Standard"
+      bindings:
+        source:
+          from_step: "Language Polish"
+          field: output
 ---
 
 ## Overview
